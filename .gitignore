@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+html-report/
+*.zip
+
+# Videos and screenshots
+videos/
+screenshots/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node lock files (optional)
+package-lock.json
+
+# Env files (if any)
+.env
+.env.*

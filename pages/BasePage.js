@@ -3,7 +3,7 @@ export class BasePage {
     this.page = page;
   }
 
-  async navigate(url = '') {
+  async navigate(url = "") {
     await this.page.goto(url);
   }
 }

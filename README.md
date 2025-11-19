@@ -5,6 +5,7 @@ Automation using Playwright (JS) for testing https://demoqa.com/books.
 ---
 
 ## 🤖 Tech Stack
+
 ```bash
 Playwright Test
 Page Object Model (POM)
@@ -15,29 +16,35 @@ Node.js
 
 ## 🔧 Setup
 
-1. 📥 **Clone the Repository**  
-    ```bash
-    git clone https://github.com/luckyandryan/playwright_web_automation.git
-    ```
+1. 📥 **Clone the Repository**
 
-2. ➡️ **Move to the project directory**  
-    ```bash
-    cd playwright_web_automation
-    ```
+   ```bash
+   git clone https://github.com/luckyandryan/playwright_web_automation.git
+   ```
 
-3. 📦 **Install Dependencies**  
-    ```bash
-    npm install
-    ```
+2. ➡️ **Move to the project directory**
+
+   ```bash
+   cd playwright_web_automation
+   ```
+
+3. 📦 **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
 ---
 
 ## 🚀 Run Tests
 
 Run all **UI tests**:
+
 ```bash
-npm test 
+npm test
 ```
+
 or
+
 ```bash
 npm run test:headed
 ```
@@ -45,6 +52,7 @@ npm run test:headed
 ---
 
 ## 📁 Project Structure
+
 ```bash
 playwright_web_automation/
 ├── pages/

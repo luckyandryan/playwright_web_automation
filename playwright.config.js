@@ -6,7 +6,7 @@ export default defineConfig({
   retries: 1,
   reporter: [["html", { outputFolder: "playwright-report" }]],
   use: {
-    headless: false,
+    headless: true,
     screenshot: "on",
     video: "on",
     baseURL: "https://demoqa.com/books",

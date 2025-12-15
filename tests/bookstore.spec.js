@@ -42,7 +42,7 @@ test.describe("Bookstore UI Tests", () => {
     expect(errorMessage).toBe("Invalid username or password!");
   });
 
-  test("Verify login works correctly", async ({ page }) => {
+  test("Verify login works as expected", async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.navigate("/login");
 
